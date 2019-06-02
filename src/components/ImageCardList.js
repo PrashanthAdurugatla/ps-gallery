@@ -1,11 +1,9 @@
 import React from 'react';
 import ImageCard from './ImageCard';
 
-
 const ImageCardList = (props) => {
     const{posts} = props;
     const cardComponentArray = posts.slice(0,4);
-
     return (
         <div>
             <div className="container mt-5 ">
@@ -26,9 +24,7 @@ const ImageCardList = (props) => {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }
-
 export default ImageCardList;
